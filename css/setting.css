@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #582fd7;
+  --light-green: #30f7fe;
+  --black: #1b1b1b;
+  --white: #ffffff;
+  --gray-dark: #6e6d6d;
+  --primary-font: "Raleway";
+  --secondary-font: "Poppins";
+  --third-font: "Noto Serif";
+  --fourth-font: "Open Sans";
+  --wrapper: 160rem;
+  --container: 117rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--gray-dark);
+  background-color: var(--white);
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--white);
+}
+
+.wrapper {
+  max-width: var(--wrapper);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: var(--container);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
