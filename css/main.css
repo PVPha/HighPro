@@ -151,7 +151,7 @@
   height: 51.7rem;
 }
 /* responsive for header */
-@media screen and (max-width: 1438px) {
+/* @media screen and (max-width: 1438px) {
   .header {
     min-height: 90vh;
   }
@@ -170,7 +170,7 @@
   .header {
     min-height: 65vh;
   }
-}
+} */
 
 /* end header */
 
@@ -483,6 +483,11 @@ li {
 @media screen and (max-width: 1438px) {
   html {
     font-size: 56.5%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  html {
+    font-size: 53.5%;
   }
 }
 @media screen and (max-width: 1250px) {
